@@ -11,7 +11,7 @@ class GitTimeline < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/hernancerm/git-timeline/releases/download/1.0/git-timeline-macos-arm64.zip"
-      sha256 "1b76836be3f3c0050ffa299ea1f4cef64bef4270779fb6e6571ac2355b328fa3"
+      sha256 "8a56bf2fc738a8fb97f5b68b3fedcd9dbf95a4a8fe429eadfe443b11a4b848c1"
     end
   end
 
