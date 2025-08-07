@@ -1,7 +1,7 @@
 class GitTimeline < Formula
   desc "A small wrapper for git-log which improves readability."
   homepage "https://github.com/hernancerm/git-timeline"
-  version "1.1"
+  version "2.0"
 
   # Binaries are not provided in the GitHub release page for anything other than macOS arm64.
   # When binaries are provided there for other platforms, then this can be removed.
@@ -10,8 +10,8 @@ class GitTimeline < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hernancerm/git-timeline/releases/download/1.1/git-timeline-macos-arm64.zip"
-      sha256 "6ca2d8a9681e1dcb63a93c4b65eee00495ef343e3eac197342d9ba995ff8a4e4"
+      url "https://github.com/hernancerm/git-timeline/releases/download/2.0/git-timeline-macos-arm64.zip"
+      sha256 "0766045dfd98f606bdb349bf79096d754ccce54c64471ab290edf75575652753"
     end
   end
 
