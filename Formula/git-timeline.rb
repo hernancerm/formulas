@@ -1,15 +1,15 @@
 class GitTimeline < Formula
   desc "Git log wrapper improving readability."
   homepage "https://github.com/hernancerm/git-timeline"
-  version "2.0"
+  version "2.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hernancerm/git-timeline/releases/download/2.0/git-timeline-macos-arm64.tar.gz"
-      sha256 "28b561ce14a4b88043f3b350c707cf2990c80048ce625ad8ff353003e61b75d1"
+      url "https://github.com/hernancerm/git-timeline/releases/download/2.1/git-timeline-macos-arm64.tar.gz"
+      sha256 "1077302c0e16d37ea2aaee22728b62aae7c4e2cbbf9c07bee09af0289444f9cd"
     elsif
-      url "https://github.com/hernancerm/git-timeline/releases/download/2.0/git-timeline-macos-x86.tar.gz"
-      sha256 "f884a9da676c165f0dab024c53e9d9ef00ce59d6a1184c4f44c05cc7380f9a6a"
+      url "https://github.com/hernancerm/git-timeline/releases/download/2.1/git-timeline-macos-x86.tar.gz"
+      sha256 "2b4953cabe544015d7c652c6b29ecae27258a6bed2166778fb09ecaf60fae23f"
     end
   end
 
