@@ -3,7 +3,7 @@
 class GitTimeline < Formula
   desc "Git log wrapper improving readability"
   homepage "https://github.com/hernancerm/git-timeline"
-  version "2.2.0"
+  version "2.2.1"
 
   on_macos do
     # GraalVM 25 has no macOS Intel build, so neither do we. Without this an
@@ -11,20 +11,20 @@ class GitTimeline < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/hernancerm/git-timeline/releases/download/2.2.0/git-timeline-macos-arm64.tar.gz"
-      sha256 "4f74fdc990a266ba0b365f6df7282bd8b2d26f0ace9cb0cb72aab837b8454716"
+      url "https://github.com/hernancerm/git-timeline/releases/download/2.2.1/git-timeline-macos-arm64.tar.gz"
+      sha256 "f621d6c52fa29cc177fffddeab7ed6c59a1e9c5ab769ca7b67d1d4630170d14a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hernancerm/git-timeline/releases/download/2.2.0/git-timeline-linux-arm64.tar.gz"
-      sha256 "9109d376cba1d76a12968080028bf73334a5fc77023c2092cfd9d1a05296994c"
+      url "https://github.com/hernancerm/git-timeline/releases/download/2.2.1/git-timeline-linux-arm64.tar.gz"
+      sha256 "1b8d33a99b47137699ee9e4f745d7996624e2361cadc379e6d28c685bb69a367"
     end
 
     on_intel do
-      url "https://github.com/hernancerm/git-timeline/releases/download/2.2.0/git-timeline-linux-x86_64.tar.gz"
-      sha256 "b6e4276c464dee5f55e4d345c38d48162b85fe2fce56264b4acc0ac4297673b6"
+      url "https://github.com/hernancerm/git-timeline/releases/download/2.2.1/git-timeline-linux-x86_64.tar.gz"
+      sha256 "ea1876dcb3fad982bc7d8836d36f0a3387e2fcc353d668c9959f1933d360fcdf"
     end
   end
 
